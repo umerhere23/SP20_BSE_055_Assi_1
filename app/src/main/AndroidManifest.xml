@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SP20_BSE_001_Assi_1">
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.sp20_bse_055_assi_1.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

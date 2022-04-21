@@ -1,4 +1,4 @@
-package com.example.sp20_bse_001_assi_1;
+package com.example.sp20_bse_055_assi_1;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,6 +7,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.example.sp20_bse_001_assi_1.R;
 
 public class MainActivity extends AppCompatActivity {
 public Button btn1,btn2,btn3,btn4,btn5,btn6, btn7,btn8,btn9,btn0,btnclear,btnopen;
