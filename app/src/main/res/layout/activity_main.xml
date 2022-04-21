@@ -93,11 +93,11 @@
         app:layout_constraintStart_toStartOf="@+id/btn3" />
 
     <Button
-        android:id="@+id/btnback"
+        android:id="@+id/btnopen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="39dp"
-        android:text="@string/btnclear"
+        android:text="@string/btnopen"
         app:layout_constraintBaseline_toBaselineOf="@+id/btn0"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -115,7 +115,7 @@
         android:id="@+id/btnclear"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/btnopen"
+        android:text="@string/btnclear"
         app:layout_constraintBaseline_toBaselineOf="@+id/btn0"
         app:layout_constraintEnd_toEndOf="@+id/btn6"
         app:layout_constraintStart_toStartOf="@+id/btn6" />
@@ -127,9 +127,9 @@
         android:layout_marginStart="88dp"
         android:layout_marginTop="68dp"
         android:layout_marginEnd="88dp"
-        android:text="0000"
-        android:textSize="30dp"
+        android:text="@string/code"
         android:textAlignment="center"
+        android:textSize="30dp"
         app:layout_constraintEnd_toEndOf="@+id/btn3"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/btn1"
