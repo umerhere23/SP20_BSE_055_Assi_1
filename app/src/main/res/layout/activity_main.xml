@@ -10,104 +10,129 @@
         android:id="@+id/btn1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="39dp"
-        tools:layout_editor_absoluteY="210dp" />
+        android:layout_marginEnd="11dp"
+        android:text="@string/btn1"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn2"
+        app:layout_constraintEnd_toStartOf="@+id/btn2"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/btn2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="158dp"
-        tools:layout_editor_absoluteY="210dp" />
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="32dp"
+        android:text="@string/btn2"
+        app:layout_constraintBottom_toTopOf="@+id/btn5"
+        app:layout_constraintEnd_toStartOf="@+id/btn3"
+        app:layout_constraintStart_toEndOf="@+id/btn1" />
 
     <Button
         android:id="@+id/btn3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="289dp"
-        tools:layout_editor_absoluteY="208dp" />
+        android:layout_marginEnd="11dp"
+        android:text="@string/btn3"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn2" />
 
     <Button
         android:id="@+id/btn4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="298dp" />
+        android:layout_marginStart="31dp"
+        android:text="@string/btn4"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn5"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/btn5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="166dp"
-        tools:layout_editor_absoluteY="296dp" />
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="295dp"
+        android:text="@string/btn5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn6" />
 
     <Button
         android:id="@+id/btn6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="291dp"
-        tools:layout_editor_absoluteY="294dp" />
+        android:layout_marginEnd="11dp"
+        android:text="@string/btn6"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn5"
+        app:layout_constraintEnd_toEndOf="@+id/btn3" />
 
     <Button
         android:id="@+id/btn7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="385dp" />
+        android:layout_marginStart="39dp"
+        android:text="@string/btn7"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn8"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/btn8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="166dp"
-        tools:layout_editor_absoluteY="385dp" />
+        android:layout_marginTop="32dp"
+        android:text="@string/btn8"
+        app:layout_constraintStart_toStartOf="@+id/btn5"
+        app:layout_constraintTop_toBottomOf="@+id/btn5" />
 
     <Button
         android:id="@+id/btn9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="289dp"
-        tools:layout_editor_absoluteY="381dp" />
+        android:text="@string/btn9"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn8"
+        app:layout_constraintEnd_toEndOf="@+id/btn3"
+        app:layout_constraintStart_toStartOf="@+id/btn3" />
 
     <Button
         android:id="@+id/btnback"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="31dp"
-        tools:layout_editor_absoluteY="471dp" />
+        android:layout_marginStart="39dp"
+        android:text="@string/btnclear"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn0"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/btn0"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="169dp"
-        tools:layout_editor_absoluteY="468dp" />
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="21dp"
+        android:text="@string/btn0"
+        app:layout_constraintEnd_toStartOf="@+id/btnclear"
+        app:layout_constraintTop_toBottomOf="@+id/btn8" />
 
     <Button
         android:id="@+id/btnclear"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="289dp"
-        tools:layout_editor_absoluteY="471dp" />
+        android:text="@string/btnopen"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn0"
+        app:layout_constraintEnd_toEndOf="@+id/btn6"
+        app:layout_constraintStart_toStartOf="@+id/btn6" />
 
     <TextView
         android:id="@+id/Code"
         android:layout_width="162dp"
         android:layout_height="46dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="88dp"
         android:text="0000"
-        tools:layout_editor_absoluteX="124dp"
-        tools:layout_editor_absoluteY="74dp" />
+        android:textSize="30dp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@+id/btn3"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/btn1"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
